@@ -1,6 +1,3 @@
-Certainly Let's incorporate emojis into the GitHub README.md description for your YouTube clone project, following the guidance on using emojis in GitHub Flavored Markdown from the provided sources.
-
-```markdown
 # YouTube Clone with HTML & CSS 🎥
 
 Welcome to my YouTube clone This project is a tribute to the iconic video-sharing platform, meticulously crafted using HTML and CSS. Dive into a world where you can browse through channels, watch videos, and even interact with playlists, all within a sleek and modern interface. 🌐
@@ -29,18 +26,3 @@ If you're interested in contributing to this project, whether it's through bug f
 This project is purely educational and serves as a demonstration of front-end development skills. It does not claim to be an official YouTube product or service.
 
 Thank you for visiting. I hope you enjoy exploring this YouTube clone as much as I enjoyed building it. 🚀
-```
-
-This version includes emojis to enhance the visual appeal and convey emotions or concepts more effectively. Remember, to insert an emoji in GitHub Flavored Markdown, you can type the emoji's code between two colons, like `:emoji_name:`.
-
-Citations:
-[1] https://www.freecodecamp.org/news/github-flavored-markdown-syntax-examples/#:~:text=Using%20emoji,to%20choose%20the%20highlighted%20result.
-[2] https://gist.github.com/rxaviers/7360908
-[3] https://stackoverflow.com/questions/67084330/github-flavored-markdown-do-not-interpret-emojis
-[4] https://github.com/ikatyang/emoji-cheat-sheet
-[5] https://gist.github.com/468c0a0a6c854ed5780a32deb73d457f
-[6] https://github.com/executablebooks/MyST-Parser/issues/565
-[7] https://github.com/markedjs/marked/issues/233
-[8] https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[9] https://github.com/jekyll/jemoji
-[10] https://github.com/topics/github-emoji
