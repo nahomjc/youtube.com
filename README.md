@@ -13,7 +13,7 @@ Welcome to my YouTube clone This project is a tribute to the iconic video-sharin
 - Embraced the power of HTML5 to enhance interactivity and accessibility, making the clone as close to the original as possible.
 
 ## Deployment:
-- Hosted on Vercel, providing a fast and reliable hosting environment for my project. 🌍
+- Hosted on Vercel, providing a fast and reliable hosting environment for my project. https://youtube-com-two.vercel.app/🌍
 - Easy to set up and run locally, thanks to detailed instructions and a straightforward setup process. ⚙️
 
 ## Getting Started:
