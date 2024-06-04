@@ -162,3 +162,55 @@
   height: 32px;
   border-radius: 16px;
 }
+/* Adjustments for tablets and smaller desktops */
+@media (max-width: 992px) {
+  .middle-section {
+    margin-left: 20px; /* Reduce margin */
+    margin-right: 10px;
+  }
+
+  .search-bar {
+    padding-left: 8px; /* Smaller padding */
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .search-button,
+  .voice-search-button {
+    width: 50px; /* Reduce width */
+  }
+
+  .right-section {
+    width: 160px; /* Reduce width */
+  }
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    margin-left: 10px; /* Less margin */
+  }
+
+  .youtube-logo {
+    height: 18px; /* Smaller logo */
+  }
+
+  .middle-section {
+  }
+
+  .right-section {
+    width: auto; /* Auto width */
+    margin-right: 10px; /* Less margin */
+  }
+
+  .upload-icon-container,
+  .youtube-apps-icon {
+    display: none; /* Hide less essential icons */
+  }
+
+  .voice-search-button {
+    /* Optional: Hide voice search on small screens */
+  }
+  .notifications-icon-container {
+    margin-right: 15px;
+  }
+}
