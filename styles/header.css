@@ -206,9 +206,15 @@
   .youtube-apps-icon {
     display: none; /* Hide less essential icons */
   }
-
+  .search-bar,
   .voice-search-button {
+    display: none;
+
     /* Optional: Hide voice search on small screens */
+  }
+  .search-button {
+    border-radius: 30px;
+    margin-left: 90px;
   }
   .notifications-icon-container {
     margin-right: 15px;

@@ -30,3 +30,9 @@
 .sidebar-link div {
   font-size: 10px;
 }
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    padding-left: 0;
+  }
+}
