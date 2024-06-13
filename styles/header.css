@@ -127,7 +127,9 @@
   justify-content: space-between;
   flex-shrink: 0;
 }
-
+.right-section-mobile-view {
+  display: none;
+}
 .upload-icon {
   height: 24px;
 }
@@ -161,4 +163,27 @@
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
+}
+
+@media (max-width: 699px) {
+  .right-section {
+    display: none;
+  }
+  .middle-section {
+    display: none;
+  }
+  .right-section-mobile-view {
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .current-user {
+    height: 32px;
+    border-radius: 16px;
+    margin-left: 10px;
+  }
 }
