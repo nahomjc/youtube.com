@@ -9,7 +9,9 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
-
+.link-tag {
+  text-decoration: none;
+}
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;

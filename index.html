@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/video.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/tag.css" />
   </head>
   <body>
     <header class="header">
@@ -50,10 +51,26 @@
       </div>
       <div class="right-section-mobile-view">
         <img class="search-icon" src="icons/search.svg" />
-        <img class="current-user" src="channel-pictures/channel-pic.jpg" />
+        <img
+          class="current-user-picture"
+          src="channel-pictures/channel-pic.jpg"
+        />
       </div>
     </header>
-
+    <div class="tags-container">
+      <div class="tag active">All</div>
+      <div class="tag">News</div>
+      <div class="tag">Debates</div>
+      <div class="tag">Music</div>
+      <div class="tag">Belief</div>
+      <div class="tag">Punch</div>
+      <div class="tag">Basketball</div>
+      <div class="tag">Bodybuilding</div>
+      <div class="tag">Contemporary Worship Music</div>
+      <div class="tag">Public Speaking</div>
+      <div class="tag">Comedy</div>
+      <div class="tag">Podcasts</div>
+    </div>
     <nav class="sidebar">
       <div class="sidebar-link">
         <img src="icons/home.svg" />
@@ -84,25 +101,31 @@
     <main>
       <section class="video-grid">
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-web-1.jpg" />
-            <div class="video-time">2:51</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img
-                class="profile-picture"
-                src="channel-pictures/channels-web-1.jpg"
-              />
+          <a
+            href="https://www.youtube.com/watch?v=8d4x4WRomF4"
+            class="link-tag"
+          >
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumbnails/thumbnail-web-1.jpg" />
+              <div class="video-time">2:51</div>
             </div>
-            <div class="video-info">
-              <p class="video-title">
-                Build Your First Website: A Guide to Web Development
-              </p>
-              <p class="video-author">Muyalogy</p>
-              <p class="video-stats">50k views &#183; 6 months ago</p>
+
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channels-web-1.jpg"
+                />
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Build Your First Website: A Guide to Web Development
+                </p>
+                <p class="video-author">Muyalogy</p>
+                <p class="video-stats">50k views &#183; 6 months ago</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="video-preview">
