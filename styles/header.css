@@ -38,7 +38,6 @@
   margin-right: 35px;
   max-width: 500px;
   display: flex;
-  border-radius: 10px 10px 0 0;
   align-items: center;
 }
 
@@ -55,6 +54,7 @@
 
 .search-bar::placeholder {
   font-size: 16px;
+  font-family: Roboto, Arial;
 }
 
 .search-button {
