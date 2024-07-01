@@ -1,6 +1,6 @@
 # YouTube Clone with HTML & CSS 🎥
 
-Welcome to my YouTube clone This project is a tribute to the iconic video-sharing platform, meticulously crafted using HTML and CSS. Dive into a world where you can browse through channels, watch videos, and even interact with playlists, all within a sleek and modern interface. 🌐
+Welcome to my YouTube clone This project is a tribute to the iconic video-sharing platform, meticulously crafted using HTML and CSS. 🌐
 
 ## Key Features:
 - Responsive design that adapts beautifully to any screen size, ensuring a seamless viewing experience on desktops, tablets, and mobile phones. 📱💻
